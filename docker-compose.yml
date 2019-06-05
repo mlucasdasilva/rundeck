@@ -19,6 +19,7 @@ services:
          - NO_PROXY=${NO_PROXY}
       volumes:
         - rundeck:/usr/local/rundeck/
+      # command: java -jar rundeck-3.0.20-20190408.war
 #      links:
 #        - mysql:rundeck
 #      depends_on:
