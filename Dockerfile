@@ -42,6 +42,6 @@ CMD ["java","-jar rundeck-3.0.20-20190408.war"]
 #    CMD command param1 param2 (shell form)
 
 
-VOLUME ["/home/rundeck/server/data"]
+#VOLUME ["/home/rundeck/server/data"]
 
 EXPOSE 4440
