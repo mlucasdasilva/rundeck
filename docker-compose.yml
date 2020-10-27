@@ -5,7 +5,11 @@ services:
    rundeck:
       #image: rundeck:3.0.20
       image: rundeck-teste
-      hostname: 192.168.56.31.nip.io
+      # usuario: admin
+      # senha: admin
+#      hostname: 192.168.56.31.nip.io
+#      hostname: ec2-3-237-189-178.compute-1.amazonaws.com
+      hostname: ${RUNDECK_HOSTNAME}
       ports:
         - 4440:4440
       build:
